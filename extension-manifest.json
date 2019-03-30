@@ -1,0 +1,69 @@
+{
+  "manifestVersion": 1,
+  "id": "cboroson-KeyVault-Replication",
+  "name": "Key Vault Replication",
+  "version": "1.0.8",
+  "publisher": "cboroson",
+  "public": false,
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "description": "Task for replicating secrets between Azure Key Vaults.",
+  "scopes": [
+    "vso.build",
+    "vso.serviceendpoint"
+  ],    
+  "categories": [
+    "Azure Pipelines"
+  ],
+  "tags": [
+    "Key Vault",
+    "Secret",
+    "Replication",
+    "Mirror"
+  ],
+  "content": {
+    "details": {
+      "path": "readme.md"
+    },
+    "license": {
+      "path": "KeyVault-Replication-extension/license.txt"
+    }
+  },
+  "links": {
+    "getstarted": {
+      "uri": "https://github.com/cboroson/KeyVault-Replication"
+    },
+    "support": {
+      "uri": "https://github.com/cboroson/KeyVault-Replication"
+    }
+  },
+  "branding": {
+    "color": "rgb(36, 43, 50)",
+    "theme": "dark"
+  },
+  "icons": {
+    "default": "KeyVault-Replication-extension/images/replication.png"
+  },
+  "files": [
+  {
+    "path": "KeyVault-Replication-release", "addressable": true
+  }
+],
+
+  "contributions": [
+    {
+      "id": "cboroson-KeyVault-Replication",
+      "type": "ms.vss-distributed-task.task",
+      "description": "Replicate secrets between Azure Key Vaults.",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "properties": {
+        "name": "KeyVault-Replication-release"
+      }
+    }
+  ]
+}
