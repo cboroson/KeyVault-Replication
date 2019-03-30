@@ -2,9 +2,9 @@
   "manifestVersion": 1,
   "id": "cboroson-KeyVault-Replication",
   "name": "Key Vault Replication",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "publisher": "cboroson",
-  "public": false,
+  "public": true,
   "targets": [
     {
       "id": "Microsoft.VisualStudio.Services"
