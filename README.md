@@ -27,6 +27,7 @@ This extension requires two existing Key Vaults in an accessible Azure subscript
 
 ## Configuration
 *Ensure that the VSTS service principal has sufficient permissions to the source and target Key Vaults*
+![](KeyVault-Replication-extension/Images/screenshot1.png)
 
 
 ## Contributing
